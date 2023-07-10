@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+.image-slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+.fade {
+  /*이미지 변경될때마다 페이딩, 애니메이션 지속 시간을 3초*/
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@keyframes fade {
+  /*애니메이션 중에 이미지의 불투명도*/
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}

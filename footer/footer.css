@@ -1,0 +1,165 @@
+* {
+  box-shadow: border-box;
+}
+
+/*//TODO 이건 공통적용이니까 나중에 합칠때 지워서 정리하기(중복제거)*/
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*//todo 뭐랄까 이것도 나중에 합칠때 한번 더 확인해봐야할것같음.*/
+
+.footer_topbox1 {
+  /*--푸터 1,2 감싸는 박스*/
+  min-height: 1px;
+  padding-top: 40px;
+}
+
+.footer_topbox2 {
+  padding-top: 30px;
+  border-top: 1px solid rgb(247, 247, 247);
+}
+
+/*//todo  푸터를 1,2로 나눈면 상단= 1, 하단 =2
+//todo start :  푸터 1*/
+
+.footer1 {
+  width: 1050px;
+  margin: 0px auto;
+}
+
+.footer1_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 30px;
+  width: 1050px;
+  height: 345px;
+}
+
+/*start : 왼쪽 footer*/
+.footer1_left {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  height: 315px;
+  margin-left: 70px;
+}
+
+.happycenter {
+  padding-bottom: 17px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.callnum {
+  display: block;
+  padding-bottom: 20px;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.week_time {
+  margin-left: 8px;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.inquery {
+  display: flex;
+  flex-direction: column;
+}
+
+.inquery_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.inquery_button {
+  display: block;
+  width: 140px;
+  height: 40px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 3px;
+  line-height: 39px;
+  text-align: center;
+}
+
+.inquery_content {
+  margin-top: 2px;
+  color: rgb(153, 153, 153);
+  letter-spacing: -0.5px;
+  line-height: 16.8px;
+}
+
+.nomember {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb(153, 153, 153);
+}
+/*end : 왼쪽 footer*/
+
+/*start : 오른쪽 footer*/
+.footer1_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 315px;
+  align-items: center;
+}
+
+/*start :오른쪽 푸터 첫번째 (컬리소개, 투자정보~)*/
+.footer1_list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 520px;
+  padding-bottom: 29px;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.introduce {
+  font-size: 14px;
+  line-height: 18px;
+}
+/*end :오른쪽 푸터 첫번째 (컬리소개, 투자정보~)*/
+
+/*start : 오른쪽 푸터 두번째(정보)*/
+.footer1_information {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb(153, 153, 153);
+  margin-bottom: 40px;
+}
+
+.sns_logos {
+  margin-right: 15px;
+  align-items: first baseline;
+}
+/*end : 오른쪽 푸터 두번째(정보)*/
+
+/*//todo end : 푸터1*/
+
+/*start: footer:2*/
+
+.footer2_box {
+  padding: 20px 0px 30px;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  background-color: rgb(247, 247, 247);
+  color: rgb(153, 153, 153);
+}
+
+.footer2_1 {
+  display: block;
+  padding-top: 7px;
+  font-style: normal;
+}

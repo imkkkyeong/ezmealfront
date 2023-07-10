@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.animated-text {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #65d674;
+  padding: 0;
+  height: 40px;
+  overflow: hidden;
+}
+
+.line {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.line:first-child {
+  animation: anim 6s infinite;
+}
+
+/*위로 이동해야하니까 마이너스*/
+
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(-60px);
+  }
+  75% {
+    transform: translateY(-90px);
+  }
+  100% {
+    transform: translateY(-120px);
+  }
+}
